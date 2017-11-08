@@ -11,34 +11,34 @@ package ejemploclaseyobjetos;
  */
 public class GenerarRandom {
     
-    public static String DameUnNombre()
-    {
-        String retorno="";
+public static String DameUnNombre()
+     {
+         String retorno="";
        int random=(int)Math.random()*10;
-        switch(random)
-        {
-            case 0:
-            retorno="Alfredo";
-            break;
-            case 1:
-            retorno="Rogelio";
-            break;
-            case 2:
-            retorno="Julieta";
-            break;
-                
+         switch(random)
+         {
+             case 0:
+             retorno="Alfredo";
+             break;
+             case 1:
+             retorno="Rogelio";
+             break;
+             case 2:
+             retorno="Julieta";
+             break;
+                 
         }
-        
-        
-        
-        return retorno;
+         
+         
+         
+         return retorno;
     
-    }
-    public static int DameUnaEdad()
-    {
-        int retorno=0;
-        int random=(int)Math.random()*100;
-        return retorno;
-        
-    }
-}
+     }
+     public static int DameUnaEdad()
+     {
+         int retorno=0;
+         int random=(int)Math.random()*100;
+         return retorno;
+         
+     }
+ }
